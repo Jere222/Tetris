@@ -76,7 +76,6 @@ const Tablero = () => {
                     }
                     co&&setPuntuacion(puntuacion+co*100)
                 }
-                console.log(tiempo)
                 setTableroAux(cuadrados)
                 fig.forma.forEach(pos => (pos<20)&&(band=true))
                 if(!band)getFigura()
